@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_garage_coop_electricity,access.garage.coop.electricity,model_garage_coop_electricity,base.group_user,1,1,1,1
+access_garage_coop_garage,access.garage.coop.garage,model_garage_coop_garage,base.group_user,1,1,1,1
+access_garage_coop_member,access.garage.coop.member,model_garage_coop_member,base.group_user,1,1,1,1
+access_garage_coop_vehicle,access.garage.coop.vehicle,model_garage_coop_vehicle,base.group_user,1,1,1,1
+access_garage_coop_payment,access.garage.coop.payment,model_garage_coop_payment,base.group_user,1,1,1,1
