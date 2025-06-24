@@ -4,9 +4,9 @@ from odoo import fields, models, api
 class GarageCoopPayment(models.Model):
     _name = 'garage.coop.payment'
     _description = 'Членские взносы'
-    # _inherit = ['mail.thread', 'mail.activity.mixin']
+    _inherit = ['mail.thread', 'mail.activity.mixin']
 
-    name = fields.Char(string='Номер платежа', readonly=True, default='New')
+    name = fields.Char(string='Месяц платежа', default='New')
     member_id = fields.Many2one('garage.coop.member', string='Член кооператива', required=True)
     date = fields.Date(string='Дата платежа', default=fields.Date.today)
     amount = fields.Float(string='Сумма', required=True)

@@ -5,7 +5,7 @@
     'summary': 'Модуль для гаражного комплекса',
     'version': '17.0.0.3',
     'license': 'Other proprietary',
-    'depends': [],
+    'depends': ['base', 'mail'],
     'data': [
         'security/ir.model.access.csv',
         'views/garage_views.xml'
